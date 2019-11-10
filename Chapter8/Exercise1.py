@@ -7,3 +7,15 @@ The list [’Chromista’, ’Plantae’, ’Fungi’]
 The list [’Fungi’, ’Animalia’]
 The empty list”
 '''
+kingdoms = ['Bacteria','Protozoa','Chromista','Plantae','Fungi','Animalia']
+#The first item of kingdoms
+print(kingdoms[0])
+#The last item of kingdoms
+print(kingdoms[5])
+#The list [’Bacteria’, ’Protozoa’, ’Chromista’]
+print(kingdoms[:3])
+#The list [’Chromista’, ’Plantae’, ’Fungi’]
+print(kingdoms[2:5])
+#The empty list”
+print(kingdoms[1:0])
+
